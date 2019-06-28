@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier",
+    "react"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "alias": {
+          "assets": "./src/assets",
+          "modules": "./src/modules",
+          "utils": "./src/utils",
+          "styles": "./src/styles"
+        }
+      }
+    }
+  }
+}
