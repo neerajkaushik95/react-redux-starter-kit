@@ -45,4 +45,5 @@ dist
 # todo files
 todo.txt
 
+# but please keep the folder
 !.gitkeep
