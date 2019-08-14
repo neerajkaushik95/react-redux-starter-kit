@@ -1,1 +1,3 @@
-src/shared/*
+src/shared/actions
+src/shared/components
+src/shared/constants
