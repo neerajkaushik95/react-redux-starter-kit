@@ -44,3 +44,5 @@ dist
 
 # todo files
 todo.txt
+
+!.gitkeep
